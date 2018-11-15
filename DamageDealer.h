@@ -3,7 +3,9 @@
 
 
 class DamageDealer{
-
+public:
 virtual void dealDamage(float amount) = 0;
 };
 #endif // Damage_H
+
+

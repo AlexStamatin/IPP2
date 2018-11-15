@@ -1,9 +1,9 @@
 #ifndef CreepFactory_H
 #define CreepFactory_H
-
+#include "Creep.h"
 class CreepFactory{
-
- virtual Creep spawnCreep() = 0;
+public:
+ virtual Creep* spawnCreep() = 0;
 
 };
 

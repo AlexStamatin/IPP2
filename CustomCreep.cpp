@@ -7,6 +7,7 @@ class CustomCreep{
 public:
     virtual int getMoveSpeed() = 0;
     virtual string getArmortype() = 0;
+
     virtual void printCustom() = 0;
 
 

@@ -7,11 +7,11 @@ class Tower:public Structure{
 float damage;
 
 public:
-    Tower(float dmg,DamageDealer deal):(damage(dmg),delaer(deal)){}
+    Tower(float dmg,DamageDealer* deal):damage(dmg),Structure(deal){}
 
     virtual void attack() override{
 
-    dealer.dealDamage(this->damage);
+    dealer->dealDamage(this->damage);
     }
 
     virtual void doubleDamage() override{

@@ -1,6 +1,8 @@
 #ifndef AncientFacade_H
 #define AncientFacade_H
-
+#include "Weapons.cpp"
+#include "Armor.cpp"
+#include "Body.cpp"
 class AncientFacade{
 
 Weapons wp;

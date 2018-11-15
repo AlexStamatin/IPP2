@@ -3,7 +3,7 @@
 #include "CustomCreep.cpp"
 
 class Creep{
-
+public:
     virtual float unitCost(CustomCreep* cust) = 0;
     virtual void printStats(CustomCreep* cust) = 0;
 

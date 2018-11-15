@@ -1,10 +1,10 @@
 #ifndef CreepFWFactory_H
 #define CreepFWFactory_H
-
+#include "Creep.h"
 class CreepFWFactory {
-
-    enum Race {Human,Race};
-    virtual Creep getRace(Race r) = 0;
+public:
+    enum Race {Human,Elf};
+    virtual Creep* getRace(Race r) = 0;
 
 };
 

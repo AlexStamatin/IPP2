@@ -4,7 +4,7 @@
 class Hero{
 
 public:
-    virtual float averageDamage();
+    virtual float averageDamage() = 0;
 };
 
 

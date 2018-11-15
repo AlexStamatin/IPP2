@@ -1,5 +1,5 @@
 #ifndef Armor_H
-#definde Armor_H
+#define Armor_H
 
 class Armor{
 

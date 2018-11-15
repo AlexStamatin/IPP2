@@ -22,7 +22,7 @@ public:
     float unitCost(CustomCreep* cust) override{
         return baseCost+customCost(cust);
     }
-    void prinStats(CustomCreep* cust) {
+    void printStats(CustomCreep* cust) override {
         cust->printCustom();
     }
 
