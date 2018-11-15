@@ -27,6 +27,8 @@ class TestFacade
 public:
     void testfac()
     {
+        cout<<endl;
+        cout<<"Facade Pattern"<<endl;
         fac->initialize();
     }
 
@@ -47,6 +49,8 @@ class TestFlyweight
 public:
     void testfly()
     {
+        cout<<endl;
+        cout<<"Flyweight Pattern"<<endl;
         if (humc == hum2c)
         {
             cout<<"Same Objects"<<endl;
@@ -68,6 +72,8 @@ class TestDecorator
 public:
     void testdecor()
     {
+        cout<<endl;
+        cout<<"Decorator pattern"<<endl;
         veh->damageSources();
     }
 
@@ -86,6 +92,8 @@ class TestBridge
 public:
     void testbd()
     {
+        cout<<endl;
+        cout<<"Bridge Pattern"<<endl;
         structs[0]->attack();
         structs[1]->doubleDamage();
         structs[1]->attack();
@@ -100,6 +108,8 @@ class TestAdapter
     public:
     void testadapt()
     {
+        cout<<endl;
+        cout<<"Adapter Pattern"<<endl;
         h = new HeroAdapter(100,5);
         h->averageDamage();
     }

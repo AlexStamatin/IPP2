@@ -15,9 +15,6 @@ public:
     cout<<"Main Gun: "<<mainGun<<" DPS"<<endl;
     }
 
-
-
-
 };
 
 #endif // Tank_H
